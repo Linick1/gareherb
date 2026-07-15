@@ -12,4 +12,133 @@
     --grey: #C9C9C9;
     --white: #FFFFFF;
     --yellow: #F7C417;
+    --white-80: rgba(255, 255, 255, 0.8);
+    --font-family-h1: 'Inter', sans-serif;
+    --font-family-first-p: 'Inter', sans-serif;
+    --font-family-h2: 'Inter', sans-serif;
+    --font-family-first-and-seconds-infos: 'Inter', sans-serif;
+    --font-family-button: 'Inter', sans-serif;
+    --button-color: #FFFE4A;
+}
+
+.main-contain {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/banner.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 780px;
+}
+
+.main-contain-first-info {
+    margin-left: 35rem;
+    margin-top: 15rem;
+    width: 517px;
+}
+
+.main-contain-first-info h1 {
+    font-family: var(--font-family-h1);
+    color: var(--white);
+    font-size: 4rem;
+    width: 483px;
+}
+
+.main-first-span-gradient-color {
+    background: linear-gradient(90deg, #FF5F3A, #FFC940);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.main-first-contain {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.main-first-contain-first-p {
+    font-size: 1.6rem;
+    font-family: var(--font-family-first-p);
+}
+
+
+.main-first-contain .main-first-contain-first-p {
+    color: var(--white-80);
+}
+
+.main-contain-first-info h2 {
+    color: var(--white-80);
+    width: 483px;
+    font-family: var(--font-family-h2);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.main-contain-first-info h2 span {
+    color: var(--white);
+    font-weight: 600;
+}
+
+.main-first-check-line,
+.main-second-check-line {
+    display: flex;
+}
+
+.main-second-check-line {
+    margin-top: 2.4rem;
+}
+
+.main-first-check-line-group,
+.main-second-check-line-group {
+    font-family: var(--font-family-first-and-seconds-infos);
+    margin-left: .8rem;
+    margin-right: 2.4rem;
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.main-three-check-line-group,
+.main-for-check-line-group {
+    font-family: var(--font-family-first-and-seconds-infos);
+    margin-left: .8rem;
+    margin-right: 2.4rem;
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 500;
+
+}
+
+.contain-inline-text {
+    display: flex;
+    margin-left: 1.5rem;
+    white-space: nowrap;
+}
+
+.main-button-ordernow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4rem;
+
+    background: var(--button-color);
+    gap: 1.6rem;
+    width: 396px;
+    color: var(--black);
+    font-size: 2.4rem;
+    font-family: var(--font-family-button);
+    font-weight: 600;
+    cursor: pointer;
+    
+    background: linear-gradient(180deg, #f8e85c 0%, #FFEB3B 50%, #FDD835 100%);
+
+    border: none;
+    border-bottom: 6px solid #C9A227;
+    border-radius: 50px;
+    padding: 18px;
+    display: inline-flex;
 }
