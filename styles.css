@@ -13,19 +13,19 @@
     --white: #FFFFFF;
     --yellow: #F7C417;
     --white-80: rgba(255, 255, 255, 0.8);
+    --button-color: #FFFE4A;
     --font-family-h1: 'Inter', sans-serif;
     --font-family-first-p: 'Inter', sans-serif;
     --font-family-h2: 'Inter', sans-serif;
     --font-family-first-and-seconds-infos: 'Inter', sans-serif;
     --font-family-button: 'Inter', sans-serif;
-    --button-color: #FFFE4A;
+    --font-family-contain-frame-description: 'Poppins', sans-serif;
 }
 
 .main-contain {
     display: flex;
     flex-direction: column;
     background-image: url(images/banner.png);
-    background-size: auto;
     background-repeat: no-repeat;
     height: 780px;
 }
@@ -133,7 +133,7 @@
     font-family: var(--font-family-button);
     font-weight: 600;
     cursor: pointer;
-    
+
     background: linear-gradient(180deg, #f8e85c 0%, #FFEB3B 50%, #FDD835 100%);
 
     border: none;
@@ -141,4 +141,45 @@
     border-radius: 50px;
     padding: 18px;
     display: inline-flex;
+}
+
+.contain-frames-styles {
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+    margin-top: -2px;
+    background: var(--yellow);
+}
+
+.contain-frame-description {
+    display: flex;
+    align-items: center;
+    gap: 3.7rem;
+    margin-right: 3.7rem;
+
+}
+
+.contain-frame-separation {
+    margin-left: 35rem;
+    display: flex;
+}
+
+.contain-frame-image-and-text-style {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.contain-frame-image-and-text-style  p {
+    font-family: var(--font-family-contain-frame-description);
+    font-size: 2rem;
+}
+
+.contain-frame-description-thre-info {
+     display: flex;
+}
+
+.contain-frame-image-and-text-style-thre-info p {
+    width: 50rem;
+    font-family: var(--font-family-contain-frame-description);
+    font-size: 2rem;
 }
