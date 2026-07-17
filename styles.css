@@ -12,7 +12,12 @@
     --grey: #C9C9C9;
     --white: #FFFFFF;
     --yellow: #F7C417;
+    --grey-dark: #606060;
+    --discount-grey: #5E7885;
+    --primary-dark: #014A71;
     --white-80: rgba(255, 255, 255, 0.8);
+    --white-background-color: #F5F5F5;
+    --linear-color: linear-gradient(90deg, #FF5F3A, #FFC940);
     --button-color: #FFFE4A;
     --font-family-h1: 'Inter', sans-serif;
     --font-family-first-p: 'Inter', sans-serif;
@@ -20,6 +25,8 @@
     --font-family-first-and-seconds-infos: 'Inter', sans-serif;
     --font-family-button: 'Inter', sans-serif;
     --font-family-contain-frame-description: 'Poppins', sans-serif;
+    --font-family-pricing-h3: 'Poppins', sans-serif;
+    --font-family-h3-p: 'Inter', sans-serif;
 }
 
 .main-contain {
@@ -44,9 +51,8 @@
 }
 
 .main-first-span-gradient-color {
-    background: linear-gradient(90deg, #FF5F3A, #FFC940);
+    background: var(--linear-color);
     background-clip: text;
-    -webkit-background-clip: text;
     color: transparent;
 }
 
@@ -61,7 +67,6 @@
     font-size: 1.6rem;
     font-family: var(--font-family-first-p);
 }
-
 
 .main-first-contain .main-first-contain-first-p {
     color: var(--white-80);
@@ -169,17 +174,139 @@
     gap: 1.6rem;
 }
 
-.contain-frame-image-and-text-style  p {
+.contain-frame-image-and-text-style p {
     font-family: var(--font-family-contain-frame-description);
     font-size: 2rem;
 }
 
 .contain-frame-description-thre-info {
-     display: flex;
+    display: flex;
 }
 
 .contain-frame-image-and-text-style-thre-info p {
     width: 50rem;
     font-family: var(--font-family-contain-frame-description);
     font-size: 2rem;
+}
+
+.pricing-table {
+    background: var(--white-background-color);
+}
+
+.pricing-table-main-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+.pricing-table-main-text h3 {
+    color: var(--linear-color);
+    font-family: var(--font-family-pricing-h3);
+    font-size: 4rem;
+}
+
+.pricing-table-span-color {
+    background: var(--linear-color);
+    background-clip: text;
+    color: transparent;
+}
+
+.pricing-table-main-text p {
+    font-size: 2rem;
+    color: var(--grey-dark);
+    font-family: var(--font-family-h3-p);
+
+}
+
+.pricing-table-style {
+    background: var(--white);
+    width: 382px;
+    margin-left: 35rem;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.pricing-table-text-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--black);
+    padding: .8rem;
+    font-family: var(--font-family-h1);
+    font-weight: 400;
+    color: var(--white);
+    font-size: 2.4rem;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.pricing-table-text-center-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.6rem;
+}
+
+.pricing-table-text-description {
+    font-size: 3.6rem;
+    font-weight: bold;
+    font-family: var(--font-family-h1);
+    color: var(--black-light);
+}
+
+.pricing-table-text-days-supply {
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: var(--font-family-h1);
+    color: var(--grey-dark);
+}
+
+.pricing-text {
+    font-size: 6.4rem;
+    font-weight: bold;
+    font-family: var(--font-family-h1);
+    color: var(--black-light);
+}
+
+.pricing-text-style-span {
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: var(--font-family-h1);
+    color: var(--grey-dark);
+}
+
+.pricing-chack-style {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 4.7rem;
+
+}
+
+.pricing-chack-style p {
+    font-size: var(--font-size);
+    font-family: var(--font-family-h1);
+    font-weight: 500;
+    color: var(--grey-dark);
+}
+
+.buynow {
+    display: inline-block;
+
+    margin-top: 3.4rem;
+    margin-left: 2.8rem;
+    margin-bottom: 1.6rem;
+    width: 314px;
+    height: 103px;
+    background-image: url(images/buynow.png);
+}
+
+.flagcards {
+    margin-left: 2.8rem;
 }
