@@ -12,12 +12,15 @@
     --grey: #C9C9C9;
     --white: #FFFFFF;
     --yellow: #F7C417;
+    --red: red;
+    --best-seller-background-card-color: #FFF1C0;
     --grey-dark: #606060;
     --discount-grey: #5E7885;
     --primary-dark: #014A71;
     --white-80: rgba(255, 255, 255, 0.8);
     --white-background-color: #F5F5F5;
     --linear-color: linear-gradient(90deg, #FF5F3A, #FFC940);
+    --border-color-best-seller: #AA2315;
     --button-color: #FFFE4A;
     --font-family-h1: 'Inter', sans-serif;
     --font-family-first-p: 'Inter', sans-serif;
@@ -222,8 +225,21 @@
 .pricing-table-style {
     background: var(--white);
     width: 382px;
-    margin-left: 35rem;
 
+    border: 1px solid var(--grey);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.pricing-table-style-best-seller-style {
+    background: var(--best-seller-background-card-color);
+    width: 382px;
+    margin-top: -4.1rem;
+
+    border: 1px solid var(--border-color-best-seller);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 
@@ -246,11 +262,76 @@
     border-top-right-radius: 12px;
 }
 
+.pricing-table-text-style-best-seller-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--linear-color);
+    padding: 1.1rem;
+    font-family: var(--font-family-h1);
+    font-weight: 400;
+    color: var(--white);
+    font-size: 2.4rem;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
 .pricing-table-text-center-style {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 1.6rem;
+}
+
+.pricing-table-text-center-style-standard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.6rem
+}
+
+.pricing-check-style-group-standard {
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.pricing-text-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-table-style-standard {
+    border: 1px solid;
+    width: 382px;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.pricing-table-text-center-style-best-seller-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 1.3rem;
+}
+
+.pricing-table-text-contain-style-best-seller-style {
+    margin-bottom: 4.5rem;
+}
+
+.pricing-chack-style-best-seller {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
 }
 
 .pricing-table-text-description {
@@ -260,7 +341,21 @@
     color: var(--black-light);
 }
 
+.pricing-table-text-description-best-seller-style {
+    font-size: 3.6rem;
+    font-weight: bold;
+    font-family: var(--font-family-h1);
+    color: var(--black-light);
+}
+
 .pricing-table-text-days-supply {
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: var(--font-family-h1);
+    color: var(--grey-dark);
+}
+
+.pricing-table-text-days-supply-best-seller-style {
     font-size: 2.4rem;
     font-weight: 400;
     font-family: var(--font-family-h1);
@@ -309,4 +404,42 @@
 
 .flagcards {
     margin-left: 2.8rem;
+}
+
+.pricing-text-style {
+    font-family: var(--font-family-h1);
+    color: var(--discount-grey);
+
+}
+
+.discount-text {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-top: 1.6rem;
+    margin-bottom: 3.8rem;
+    text-align: center;
+
+    color: var(--discount-grey);
+    font-family: var(--font-family-h1);
+}
+
+.discount-price {
+    text-decoration: line-through var(--red);
+}
+
+.discount-price-new-value {
+    color: var(--primary-dark);
+}
+
+.pricing-cards-group {
+    display: flex;
+    margin-left: 35rem;
+    gap: 3.2rem;
+}
+
+.princing-text-cards-starter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.3rem;
 }
