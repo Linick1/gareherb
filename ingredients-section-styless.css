@@ -1,0 +1,42 @@
+.ingredients-section {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 8rem;
+    margin-bottom: 7.2rem;
+
+}
+
+.ingredients-section-text-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1.6rem;
+}
+
+.ingredients-title-span {
+    font-family: var(--inter-font);
+    font-weight: 600;
+    font-size: 4rem;
+
+    background: var(--linear-color);
+    background-clip: text;
+    color: transparent;
+}
+
+.ingredients-title {
+    font-family: var(--inter-font);
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.ingredients-paragraph {
+    font-family: var(--inter-font);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--grey-dark);
+
+    max-width: 748px;     
+    text-align: center;   
+}
