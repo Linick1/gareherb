@@ -1,6 +1,7 @@
 .pricing-table {
-    background: var(--white-background-color);
+    background: var(--white);
     margin-bottom: 8rem;
+    
 }
 
 .pricing-table-main-text {
