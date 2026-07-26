@@ -13,6 +13,8 @@
     align-items: center;
 
     gap: 1.6rem;
+
+    margin-bottom: 7.2rem;
 }
 
 .ingredients-title-span {
@@ -39,4 +41,66 @@
 
     max-width: 748px;     
     text-align: center;   
+}
+
+.ingredients-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.2rem; 
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.ingredient-card {
+    position: relative;
+    background: #1a1a1a;
+    border-radius: 1rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.ingredient-card-icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 3px solid var(--yellow);
+    overflow: hidden;
+}
+
+.ingredient-card-icon img {
+    height: 100%;
+}
+
+.ingredient-card-icon {
+    height: 140px;
+}
+
+.ingredient-card-title {
+    color: var(--white);
+    padding-top: 3.7rem;
+    font-family: var( --inter-font);
+    font-size: 2.4rem;
+}
+
+.ingredient-card-text {
+    color: var(--white-80);
+    font-family: var( --inter-font);
+    font-size: var(--font-size);
+    font-weight: 300;
+}
+
+.ingredient-style-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;    
+    margin-top: 3rem;
+    margin-bottom: 3.2rem;
+}
+
+.ingredients-button-section {
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
 }
