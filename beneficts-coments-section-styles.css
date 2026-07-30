@@ -10,14 +10,19 @@
     font-weight: 600;
     font-family: var(--inter-font);
     margin-bottom: 6.4rem;
+
 }
 
 .beneficts-coments-section-images-styles {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
+    box-shadow: var(--box-shadow)
+}
 
-    background-color: red;
+.beneficts-coments-section-images-border-radius {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .beneficts-coments-section-span {
@@ -41,4 +46,29 @@
     font-family: var(--inter-font);
     color: var(--grey-dark);
     width: 247px;
+}
+
+.beneficts-coments-section-person-name {
+    font-size: var(--font-size);
+    font-weight: 600;
+    font-family: var(--inter-font);
+    color: var(--black);
+}
+
+.beneficts-coments-section-person-years-old {
+    font-size: var(--font-size);
+    font-family: var(--inter-font);
+    color: var(--grey-dark);
+}
+
+.beneficts-coments-section-contain {
+    display: flex;
+    gap: 3.2rem;
+    margin-bottom: 4rem;
+}
+
+.beneficts-coments-section-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
 }
