@@ -1,0 +1,44 @@
+.beneficts-coments-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beneficts-coments-section-h1 {
+    font-size: 4rem;
+    color: var(--black);
+    font-weight: 600;
+    font-family: var(--inter-font);
+    margin-bottom: 6.4rem;
+}
+
+.beneficts-coments-section-images-styles {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+    background-color: red;
+}
+
+.beneficts-coments-section-span {
+    color: var(--yellow);
+}
+
+.beneficts-coments-section-images-styles-formatation {
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+    gap: 1.6rem;
+    justify-content: center;
+
+    width: auto;
+    height: auto;
+}
+
+.beneficts-coments-section-images-styles-formatation-p {
+    font-size: var(--font-size);
+    font-style: italic;
+    font-family: var(--inter-font);
+    color: var(--grey-dark);
+    width: 247px;
+}

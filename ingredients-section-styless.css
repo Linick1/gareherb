@@ -53,7 +53,7 @@
 
 .ingredient-card {
     position: relative;
-    background: #1a1a1a;
+    background: var(--black-light);
     border-radius: 1rem;
     padding: 4rem;
     text-align: center;
