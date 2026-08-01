@@ -1,5 +1,6 @@
 .freight-section {
     display: flex;
+    flex-direction: column;
     background: var(--yellow);
     padding: 4rem;
 }
@@ -31,3 +32,4 @@
     font-family: var(--poppins-font);
     font-weight: 600;
 }
+

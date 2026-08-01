@@ -1,0 +1,33 @@
+.freight-section-promotion-courier {
+    background: var(--black);
+}
+
+.freight-section-promotion-courier-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    width: 100%;
+}
+
+.freight-section-promotion-courier-h1 {
+    font-size: 4rem;
+    font-family: var(--inter-font);
+    font-weight: 600;
+    color: var(--white);
+}
+
+.freight-section-promotion-courier-h1-span {
+    font-size: 4rem;
+    font-family: var(--inter-font);
+    font-weight: 600;
+    color: var(--yellow);
+}
+
+.freight-section-promotion-courier-h2 {
+    font-size: 4rem;
+    font-family: var(--inter-font);
+    font-weight: 600;
+    color: var(--white);
+}
