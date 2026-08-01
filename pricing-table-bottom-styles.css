@@ -1,0 +1,128 @@
+.pricing-table-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-table-bottom-container-first-card {
+    border: 1px solid var(--grey);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.pricing-table-bottom-container-first-card {
+    margin-top: 9.3rem;
+}
+
+.pricing-table-bottom-container-first-card-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--black);
+
+    font-size: 2.4rem;
+    font-family: var(--inter-font);
+    color: var(--white);
+    font-weight: 500;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.pricing-table-bottom-container-first-card-format-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1.6rem;
+    margin-bottom: -30px;
+}
+
+.pricing-table-bottom-container-first-card-h1 {
+    font-family: var(--inter-font);
+    font-size: 3.6rem;
+    color: var(--black-light);
+    font-weight: bold;
+}
+
+.pricing-table-bottom-container-first-card-second-p {
+    font-family: var(--inter-font);
+    font-size: 2.4rem;
+    color: var(--grey-dark);
+    font-weight: 500;
+}
+
+.pricing-table-bottom-container-first-card-center-bottle {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-table-bottom-container-first-card-pricing-value-style {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-table-bottom-container-first-card-h2 {
+    font-family: var(--inter-font);
+    font-size: 6.4rem;
+    font-weight: bold;
+    color: var(--black-light);
+}
+
+.pricing-table-bottom-container-first-card-h2-span {
+    font-family: var(--inter-font);
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--grey-dark);
+}
+
+.pricing-table-bottom-container-first-card-check-style {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 3.5rem;
+    padding-left: 4.1rem;
+}
+
+.pricing-table-bottom-container-first-card-check-style-p {
+    font-family: var(--inter-font);
+    font-size: var(--font-size);
+    font-weight: 500;
+    color: var(--grey-dark);
+}
+
+
+.pricing-table-bottom-container-first-card-buynow {
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+    margin-bottom: 1.6rem;
+    width: 314px;
+    height: 103px;
+    background-image: url(images/buynow.png);
+}
+
+.pricing-table-bottom-container-first-card-discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.pricing-table-bottom-container-first-card-discount-text-style {
+    font-family: var(--inter-font);
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--grey-dark);
+
+    padding-bottom: 3.8rem;
+}
+
+.pricing-table-bottom-container-first-card-discount-text-style-span {
+    text-decoration: line-through red;
+}
+
+.pricing-table-bottom-container-first-card-discount-text-style-second-span {
+    color: var(--primary-dark);
+}
