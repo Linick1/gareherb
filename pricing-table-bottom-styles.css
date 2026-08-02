@@ -276,3 +276,67 @@
     justify-content: center;
     margin-top: -3rem;
 }
+
+.pricing-table-bottom-assessment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-table-bottom-assessment-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .8rem;
+    margin-bottom: 7.2rem;
+}
+
+.pricing-table-bottom-assessment-h1 {
+    font-family: var(--poppins-font);
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.pricing-table-bottom-assessment-img-style {
+    display: flex;
+    align-items: center;
+    gap: 2.1rem;
+}
+
+.pricing-table-bottom-assessment-first-p {
+    font-family: var(--inter-font);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.pricing-table-bottom-assessment-second-p {
+    font-family: var(--inter-font);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.pricing-table-bottom-assessment-span {
+    color: var(--yellow);   
+}
+
+.contain-frames-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 3.8rem;
+    margin-bottom: 7.3rem;
+}
+
+.contain-frames-bottom-contain {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.contain-frames-bottom-contain-p {
+    font-family: var(--poppins-font);
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--grey-dark);
+}
