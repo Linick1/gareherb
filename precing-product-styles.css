@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 8rem;
+    margin-top: 8rem;
 }
 
 .pricing-table-main-text h3 {
@@ -240,7 +240,7 @@
 
 .pricing-cards-group {
     display: flex;
-    margin-left: 35rem;
+    justify-content: center;
     gap: 3.2rem;
 }
 
