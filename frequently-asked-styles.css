@@ -1,0 +1,142 @@
+.frequently-asked {
+    background: var(--black-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frequently-asked-item-gap-style {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.frequently-asked-text-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.frequently-asked-text-style-h1 {
+    font-family: var(--inter-font);
+    font-size: 2.4rem;
+    color: var( --yellow);
+    font-weight: 600;
+}
+
+.frequently-asked-text-style-h2 {
+    font-family: var(--poppins-font);
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.frequently-asked-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frequently-asked-item-details {
+    background: var(--white);
+    padding-top: 1.6rem;
+    padding-left: 1.6rem;
+    padding-bottom: 1.6rem;
+
+    width: 934px;
+    border-radius: 5px;
+}
+
+.frequently-asked-item-details-summary {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;   
+}
+
+.frequently-asked-item-details-summary img {
+    padding-right: 1.8rem;
+}
+
+.frequently-asked-item-details-summary-span {
+    font-family: var(--poppins-font);
+    font-size: 2.4rem;
+    color: var(--black);
+    font-weight: 500;
+}
+
+.frequently-asked-item-details-summary-p {
+    font-family: var(--poppins-font);
+    font-size: var(--font-size);
+    color: var(--black-light);
+}
+
+.frequently-asked-button-ordernow {
+    display: flex;
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.frequently-asked-button-garaherb-image {
+    padding-bottom: 7.9rem;
+}
+
+.terms-and-conditions {
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-links {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    gap: 2.4rem;
+    background: var(--yellow);
+}
+
+.terms-and-conditions-links a {
+    font-family: var(--inter-font);
+    font-size: 2rem;
+    color: var(--black);
+
+    text-decoration: none;
+}
+
+.terms-and-conditions-disclaimer {
+    display: flex;
+    justify-content: center;
+    background: var(--black);
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+.terms-and-conditions-disclaimer p {
+    font-family: var(--inter-font);
+    font-size: var(--font-size);
+    color: var(--white);
+
+    text-align: center;   
+    width: 1008px;
+}
+
+.terms-and-conditions-license {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3.2rem;
+    gap: .8rem;
+}
+
+.terms-and-conditions-license-first-p {
+    font-family: var(--inter-font);
+    color: var(--black) ;
+    font-size: 1.8rem;
+}
+
+.terms-and-conditions-license-second-p {
+    font-family: var(--inter-font);
+    color: var(--black) ;
+    font-size: 1.4rem;
+}
