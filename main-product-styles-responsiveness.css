@@ -1,0 +1,300 @@
+ @media (max-width: 1661px) {
+     .main-contain-first-info {
+         margin-left: 20rem;
+
+     }
+
+ }
+
+ @media (max-width: 1600px) {
+     .main-contain-first-info {
+         margin-left: 17rem;
+     }
+
+ }
+
+ @media (max-width: 1550px) {
+     .main-contain-first-info {
+         margin-left: 14rem;
+     }
+
+ }
+
+ @media (max-width: 1500px) {
+     .main-contain-first-info {
+         margin-left: 12rem;
+     }
+
+ }
+
+ @media (max-width: 1450px) {
+     .main-contain-first-info {
+         margin-left: 10rem;
+     }
+ }
+
+ @media (max-width: 1400px) {
+     .main-contain-first-info {
+         margin-left: 8rem;
+     }
+
+ }
+
+ @media (max-width: 1350px) {
+     .main-contain-first-info {
+         margin-left: 5rem;
+     }
+
+ }
+
+ @media (max-width: 1300px) {
+     .main-contain-first-info {
+         margin-left: 2rem;
+     }
+
+ }
+
+ @media (max-width:850px) {
+
+     .main-first-check-line,
+     .main-second-check-line {
+
+         flex-direction: column;
+         align-items: flex-start;
+         gap: 1.6rem;
+
+     }
+
+     .main-four-check-line-group {
+         padding-left: 0;
+     }
+
+     .main-contain {
+         background-size: cover;
+         background-repeat: no-repeat;
+     }
+
+     .main-button-ordernow {
+
+         width: 350px;
+
+     }
+
+ }
+
+
+ @media (max-width:665px) {
+
+     .main-button-ordernow {
+
+         width: 330px;
+
+     }
+
+ }
+
+ @media (max-width:632px) {
+
+     .main-contain {
+
+         background-image: url(images/Hero\ \(3\).png);
+
+         background-position: center top;
+         height: auto;
+     }
+
+ }
+
+ @media (max-width:632px) {
+
+     .main-contain-first-info {
+
+         display: flex;
+         flex-direction: column;
+
+     }
+
+     .main-contain-first-info {
+         display: grid;
+         justify-content: center;
+
+         padding-top: 38.7rem;
+     }
+ }
+
+
+
+ @media (max-width:600px) {
+
+     .main-contain-first-info {
+         display: grid;
+         justify-content: center;
+
+         padding-top: 38rem;
+
+     }
+
+ }
+
+
+
+ @media (max-width:600px) {
+
+     .main-contain-first-info {
+         display: grid;
+         justify-content: center;
+
+         padding-top: 37rem;
+     }
+
+ }
+
+ @media (max-width: 590px) {
+
+     .main-contain-first-info {
+         display: grid;
+         justify-content: center;
+
+         padding-top: 35rem;
+     }
+
+ }
+
+ @media (max-width: 550px) {
+
+     .main-contain-first-info {
+         display: grid;
+         justify-content: center;
+
+         padding-top: 32rem;
+     }
+
+ }
+
+ @media (max-width: 500px) {
+
+     .main-contain-first-info {
+         display: grid;
+         justify-content: center;
+
+         margin-left: -1rem;
+         padding-top: 30rem;
+     }
+
+     .main-contain-first-info h2 {
+         max-width: 338px;
+     }
+
+ }
+
+ @media (max-width: 1286px) {
+     .contain-frame-separation p {
+         font-size: 1.9rem;
+     }
+ }
+
+
+ @media (max-width: 1217px) {
+     .contain-frame-separation p {
+         font-size: 1.7rem;
+     }
+ }
+
+ @media (max-width: 1164px) {
+     .contain-frame-separation p {
+         font-size: 1.6rem;
+     }
+ }
+
+ @media (max-width: 1134px) {
+     .contain-frame-separation p {
+         font-size: 1.5rem;
+     }
+ }
+
+ @media (max-width: 1097px) {
+     .contain-frame-separation p {
+         font-size: 1.3rem;
+     }
+ }
+
+ @media (max-width: 1024px) {
+     .contain-frame-separation p {
+         font-size: 1.2rem;
+     }
+ }
+
+ @media (max-width: 975px) {
+
+     .main-contain {
+
+
+         background-position: center top;
+         height: auto;
+     }
+
+
+     .contain-frame-separation img {
+         margin-left: 1rem;
+
+     }
+
+     .main-contain-first-info h2 {
+         max-width: 338px;
+     }
+
+
+ }
+
+ @media (max-width: 712px) {
+     .main-contain-first-info h1 {
+         font-size: 3rem;
+         max-width: 300px;
+     }
+
+ }
+
+ @media (max-width: 810px) {
+
+     .contain-frame-separation {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         flex-direction: column;
+         margin-left: 8rem;
+         gap: 2rem;
+     }
+
+     .contain-frame-separation p {
+         font-size: 2rem;
+     }
+
+     .line-image {
+         display: none;
+     }
+
+     .style-line-image {
+         display: none;
+     }
+ }
+
+
+ @media (max-width: 632px) {
+
+     .contain-frame-separation {
+         display: grid;
+         align-items: center;
+         font-size: 2rem;
+         grid-template-columns: 1fr;
+         flex-direction: column;
+         margin-left: 9rem;
+     }
+
+     .contain-frame-separation p {
+         font-size: 2rem;
+     }
+
+
+     .line-image-line-seven {
+         display: block;
+     }
+ }
